@@ -1,0 +1,41 @@
+<div class="login-container">
+
+  <h2>Task Manager</h2>
+
+  <form
+    [formGroup]="loginForm"
+    (ngSubmit)="onSubmit()">
+
+    <div>
+
+      <label>Usuario</label>
+
+      <input
+        type="text"
+        formControlName="username">
+
+    </div>
+
+    <br>
+
+    <div>
+
+      <label>Password</label>
+
+      <input
+        type="password"
+        formControlName="password">
+
+    </div>
+
+    <br>
+
+    <button type="submit">
+
+      Ingresar
+
+    </button>
+
+  </form>
+
+</div>
