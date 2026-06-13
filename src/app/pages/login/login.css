@@ -16,6 +16,7 @@ input {
   width: 100%;
 
   padding: 8px;
+
 }
 
 button {
@@ -25,4 +26,5 @@ button {
   padding: 10px;
 
   cursor: pointer;
+
 }

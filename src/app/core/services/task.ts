@@ -19,7 +19,9 @@ export class TaskService {
 
   constructor(
     private http: HttpClient
-  ) {}
+  ) {console.log("API URL:", this.apiUrl);
+    console.log("ENV API:", environment.apiUrl);
+  }
 
   getTasks(
     page: number = 0,
